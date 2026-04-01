@@ -1,0 +1,551 @@
+[0.000000] (-) TimerEvent: {}
+[0.000540] (point_lio) JobQueued: {'identifier': 'point_lio', 'dependencies': OrderedDict()}
+[0.000586] (point_lio) JobStarted: {'identifier': 'point_lio'}
+[0.008260] (point_lio) JobProgress: {'identifier': 'point_lio', 'progress': 'cmake'}
+[0.008815] (point_lio) Command: {'cmd': ['/usr/bin/cmake', '/home/jorgelop/Documents/VantTec_SDV_SWARM/UAV_Proyect/TMR_UAV_2026/workspaces/sensor_stack/catkin_point_lio_unilidar/src/point_lio_ros2', '-DCMAKE_INSTALL_PREFIX=/home/jorgelop/Documents/VantTec_SDV_SWARM/UAV_Proyect/TMR_UAV_2026/workspaces/sensor_stack/catkin_point_lio_unilidar/install/point_lio'], 'cwd': '/home/jorgelop/Documents/VantTec_SDV_SWARM/UAV_Proyect/TMR_UAV_2026/workspaces/sensor_stack/catkin_point_lio_unilidar/build/point_lio', 'env': OrderedDict([('USER', 'jorgelop'), ('XDG_SESSION_TYPE', 'x11'), ('SALT_LICENSE_SERVER', '/home/jorgelop/intelFPGA/license/LR-292941_License.dat'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jorgelop/Documents/VantTec_SDV_SWARM/SDV_Proyect/SDV_Software_Workspaces/minimal_ws_sensors/install/velodyne_pointcloud/lib:/home/jorgelop/Documents/VantTec_SDV_SWARM/SDV_Proyect/SDV_Software_Workspaces/minimal_ws_sensors/install/velodyne_driver/lib:/home/jorgelop/Documents/VantTec_SDV_SWARM/SDV_Proyect/SDV_Software_Workspaces/minimal_ws_sensors/install/velodyne_msgs/lib:/home/jorgelop/Documents/VantTec_SDV_SWARM/SDV_Proyect/SDV_Software_Workspaces/minimal_ws_sensors/install/velodyne_laserscan/lib:/home/jorgelop/Documents/VantTec_SDV_SWARM/SDV_Proyect/SDV_Software_Workspaces/minimal_ws_sensors/install/vectornav/lib:/home/jorgelop/Documents/VantTec_SDV_SWARM/SDV_Proyect/SDV_Software_Workspaces/minimal_ws_sensors/install/vectornav_msgs/lib:/home/jorgelop/Documents/VantTec_SDV_SWARM/SDV_Proyect/SDV_Software_Workspaces/minimal_ws_sensors/install/v4l2_Multicamera/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jorgelop'), ('OLDPWD', '/home/jorgelop/Documents/VantTec_SDV_SWARM/UAV_Proyect/TMR_UAV_2026/workspaces/sensor_stack'), ('LESS', '-R'), ('CONDA_SHLVL', '0'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/jorgelop/.nvm/versions/node/v20.19.5/bin'), ('ZSH', '/home/jorgelop/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('NVM_INC', '/home/jorgelop/.nvm/versions/node/v20.19.5/include/node'), ('GTK_MODULES', 'gail:atk-bridge'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('MANAGERPID', '1269'), ('SYSTEMD_EXEC_PID', '2360'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('P9K_TTY', 'old'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '6310'), ('QSYS_ROOTDIR', '/home/jorgelop/altera_lite/25.1std/quartus/sopc_builder/bin'), ('_CE_M', ''), ('NVM_DIR', '/home/jorgelop/.nvm'), ('ROS_DISTRO', 'humble'), ('COLCON_PREFIX_PATH', '/home/jorgelop/Documents/VantTec_SDV_SWARM/SDV_Proyect/SDV_Software_Workspaces/minimal_ws_sensors/install'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'jorgelop'), ('JOURNAL_STREAM', '8:23701'), ('_P9K_SSH_TTY', '/dev/pts/1'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('ROS_VERSION', '2'), ('USERNAME', 'jorgelop'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('_CE_CONDA', ''), ('WINDOWPATH', '2'), ('PATH', '/home/jorgelop/.local/bin:/home/jorgelop/.nvm/versions/node/v20.19.5/bin:/home/jorgelop/anaconda3/condabin:/opt/ros/humble/bin:/home/jorgelop/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/jorgelop/.dotnet/tools:/opt/xtensa-esp-elf/bin/'), ('SESSION_MANAGER', 'local/jorgelop07:@/tmp/.ICE-unix/1678,unix/jorgelop07:/tmp/.ICE-unix/1678'), ('INVOCATION_ID', '22a37a7f97274268905e4f9475c1dc5e'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im=ibus'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('AMENT_PREFIX_PATH', '/home/jorgelop/Documents/VantTec_SDV_SWARM/SDV_Proyect/SDV_Software_Workspaces/minimal_ws_sensors/install/velodyne:/home/jorgelop/Documents/VantTec_SDV_SWARM/SDV_Proyect/SDV_Software_Workspaces/minimal_ws_sensors/install/velodyne_pointcloud:/home/jorgelop/Documents/VantTec_SDV_SWARM/SDV_Proyect/SDV_Software_Workspaces/minimal_ws_sensors/install/velodyne_driver:/home/jorgelop/Documents/VantTec_SDV_SWARM/SDV_Proyect/SDV_Software_Workspaces/minimal_ws_sensors/install/velodyne_msgs:/home/jorgelop/Documents/VantTec_SDV_SWARM/SDV_Proyect/SDV_Software_Workspaces/minimal_ws_sensors/install/velodyne_laserscan:/home/jorgelop/Documents/VantTec_SDV_SWARM/SDV_Proyect/SDV_Software_Workspaces/minimal_ws_sensors/install/vectornav:/home/jorgelop/Documents/VantTec_SDV_SWARM/SDV_Proyect/SDV_Software_Workspaces/minimal_ws_sensors/install/vectornav_msgs:/home/jorgelop/Documents/VantTec_SDV_SWARM/SDV_Proyect/SDV_Software_Workspaces/minimal_ws_sensors/install/v4l2_Multicamera:/home/jorgelop/Documents/VantTec_SDV_SWARM/SDV_Proyect/SDV_Software_Workspaces/minimal_ws_sensors/install/sensors_launch:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/jorgelop/anaconda3/bin/python'), ('TERMINATOR_UUID', 'urn:uuid:28510efd-2437-48ac-8246-30fe6b4a45bf'), ('SHELL', '/usr/bin/zsh'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('P9K_SSH', '0'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jorgelop/Documents/VantTec_SDV_SWARM/UAV_Proyect/TMR_UAV_2026/workspaces/sensor_stack/catkin_point_lio_unilidar/build/point_lio'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/home/jorgelop/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/jorgelop/anaconda3/bin/conda'), ('NVM_CD_FLAGS', '-q'), ('_P9K_TTY', '/dev/pts/1'), ('PYTHONPATH', '/home/jorgelop/Documents/VantTec_SDV_SWARM/SDV_Proyect/SDV_Software_Workspaces/minimal_ws_sensors/install/velodyne_msgs/local/lib/python3.10/dist-packages:/home/jorgelop/Documents/VantTec_SDV_SWARM/SDV_Proyect/SDV_Software_Workspaces/minimal_ws_sensors/install/vectornav_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/jorgelop/Documents/VantTec_SDV_SWARM/SDV_Proyect/SDV_Software_Workspaces/minimal_ws_sensors/install/velodyne:/home/jorgelop/Documents/VantTec_SDV_SWARM/SDV_Proyect/SDV_Software_Workspaces/minimal_ws_sensors/install/velodyne_pointcloud:/home/jorgelop/Documents/VantTec_SDV_SWARM/SDV_Proyect/SDV_Software_Workspaces/minimal_ws_sensors/install/velodyne_driver:/home/jorgelop/Documents/VantTec_SDV_SWARM/SDV_Proyect/SDV_Software_Workspaces/minimal_ws_sensors/install/velodyne_msgs:/home/jorgelop/Documents/VantTec_SDV_SWARM/SDV_Proyect/SDV_Software_Workspaces/minimal_ws_sensors/install/velodyne_laserscan:/home/jorgelop/Documents/VantTec_SDV_SWARM/SDV_Proyect/SDV_Software_Workspaces/minimal_ws_sensors/install/vectornav:/home/jorgelop/Documents/VantTec_SDV_SWARM/SDV_Proyect/SDV_Software_Workspaces/minimal_ws_sensors/install/vectornav_msgs:/home/jorgelop/Documents/VantTec_SDV_SWARM/SDV_Proyect/SDV_Software_Workspaces/minimal_ws_sensors/install/v4l2_Multicamera:/home/jorgelop/Documents/VantTec_SDV_SWARM/SDV_Proyect/SDV_Software_Workspaces/minimal_ws_sensors/install/sensors_launch:/opt/ros/humble')]), 'shell': False}
+[0.058392] (point_lio) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.099858] (-) TimerEvent: {}
+[0.101945] (point_lio) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.107926] (point_lio) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.169394] (point_lio) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.174911] (point_lio) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.175087] (point_lio) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.175356] (point_lio) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.177561] (point_lio) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.199958] (-) TimerEvent: {}
+[0.249953] (point_lio) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.255131] (point_lio) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.255336] (point_lio) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.255653] (point_lio) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.256183] (point_lio) StdoutLine: {'line': b'-- Current CPU architecture: x86_64\n'}
+[0.260947] (point_lio) StdoutLine: {'line': b'-- Processor number:  16\n'}
+[0.261053] (point_lio) StdoutLine: {'line': b'-- core for MP:  3\n'}
+[0.263791] (point_lio) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.300039] (-) TimerEvent: {}
+[0.400297] (-) TimerEvent: {}
+[0.500538] (-) TimerEvent: {}
+[0.544043] (point_lio) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.600631] (-) TimerEvent: {}
+[0.624968] (point_lio) StdoutLine: {'line': b'-- Found rclcpp: 16.0.18 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.669506] (point_lio) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.675395] (point_lio) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.683527] (point_lio) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.694104] (point_lio) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.700705] (-) TimerEvent: {}
+[0.709045] (point_lio) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.751435] (point_lio) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.754518] (point_lio) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.800803] (-) TimerEvent: {}
+[0.842221] (point_lio) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.870696] (point_lio) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.900892] (-) TimerEvent: {}
+[0.912277] (point_lio) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.922125] (point_lio) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.986308] (point_lio) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.986633] (point_lio) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.000986] (-) TimerEvent: {}
+[1.053023] (point_lio) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.054063] (point_lio) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.098644] (point_lio) StdoutLine: {'line': b'-- Found rclpy: 3.3.21 (/opt/ros/humble/share/rclpy/cmake)\n'}
+[1.100944] (point_lio) StdoutLine: {'line': b'-- Found geometry_msgs: 4.9.1 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[1.101065] (-) TimerEvent: {}
+[1.112551] (point_lio) StdoutLine: {'line': b'-- Found nav_msgs: 4.9.1 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[1.126942] (point_lio) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[1.141564] (point_lio) StdoutLine: {'line': b'-- Found pcl_ros: 2.4.5 (/opt/ros/humble/share/pcl_ros/cmake)\n'}
+[1.180045] (point_lio) StdoutLine: {'line': b"-- Checking for module 'eigen3'\n"}
+[1.192945] (point_lio) StdoutLine: {'line': b'--   Found eigen3, version 3.4.0\n'}
+[1.201154] (-) TimerEvent: {}
+[1.225454] (point_lio) StdoutLine: {'line': b'-- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") \n'}
+[1.225610] (point_lio) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[1.271049] (point_lio) StdoutLine: {'line': b"-- Checking for module 'flann'\n"}
+[1.285485] (point_lio) StdoutLine: {'line': b'--   Found flann, version 1.9.1\n'}
+[1.301236] (-) TimerEvent: {}
+[1.327490] (point_lio) StdoutLine: {'line': b'-- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  \n'}
+[1.327696] (point_lio) StdoutLine: {'line': b'-- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)\n'}
+[1.401331] (-) TimerEvent: {}
+[1.501586] (-) TimerEvent: {}
+[1.601835] (-) TimerEvent: {}
+[1.702100] (-) TimerEvent: {}
+[1.802367] (-) TimerEvent: {}
+[1.902604] (-) TimerEvent: {}
+[2.002859] (-) TimerEvent: {}
+[2.103135] (-) TimerEvent: {}
+[2.169226] (point_lio) StdoutLine: {'line': b"-- Checking for module 'libusb-1.0'\n"}
+[2.183214] (point_lio) StdoutLine: {'line': b'--   Found libusb-1.0, version 1.0.25\n'}
+[2.203230] (-) TimerEvent: {}
+[2.219831] (point_lio) StdoutLine: {'line': b'-- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  \n'}
+[2.220609] (point_lio) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[2.275455] (point_lio) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[2.303314] (-) TimerEvent: {}
+[2.394678] (point_lio) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[2.399692] (point_lio) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[2.403393] (-) TimerEvent: {}
+[2.404996] (point_lio) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[2.503508] (-) TimerEvent: {}
+[2.522276] (point_lio) StdoutLine: {'line': b'-- Found Qhull version 8.0.2\n'}
+[2.603609] (-) TimerEvent: {}
+[2.641878] (point_lio) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[2.703710] (-) TimerEvent: {}
+[2.755847] (point_lio) StdoutLine: {'line': b'-- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  \n'}
+[2.756549] (point_lio) StdoutLine: {'line': b'-- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  \n'}
+[2.757304] (point_lio) StdoutLine: {'line': b'-- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  \n'}
+[2.758057] (point_lio) StdoutLine: {'line': b'-- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  \n'}
+[2.758875] (point_lio) StdoutLine: {'line': b'-- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  \n'}
+[2.759693] (point_lio) StdoutLine: {'line': b'-- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  \n'}
+[2.760020] (point_lio) StdoutLine: {'line': b'-- Found PCL_2D: /usr/include/pcl-1.12  \n'}
+[2.760355] (point_lio) StdoutLine: {'line': b'-- Found PCL_GEOMETRY: /usr/include/pcl-1.12  \n'}
+[2.761109] (point_lio) StdoutLine: {'line': b'-- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  \n'}
+[2.761930] (point_lio) StdoutLine: {'line': b'-- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  \n'}
+[2.762745] (point_lio) StdoutLine: {'line': b'-- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  \n'}
+[2.763534] (point_lio) StdoutLine: {'line': b'-- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  \n'}
+[2.764516] (point_lio) StdoutLine: {'line': b'-- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  \n'}
+[2.765383] (point_lio) StdoutLine: {'line': b'-- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  \n'}
+[2.766269] (point_lio) StdoutLine: {'line': b'-- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  \n'}
+[2.767129] (point_lio) StdoutLine: {'line': b'-- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  \n'}
+[2.767966] (point_lio) StdoutLine: {'line': b'-- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  \n'}
+[2.768916] (point_lio) StdoutLine: {'line': b'-- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  \n'}
+[2.769828] (point_lio) StdoutLine: {'line': b'-- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  \n'}
+[2.770617] (point_lio) StdoutLine: {'line': b'-- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  \n'}
+[2.771217] (point_lio) StdoutLine: {'line': b'-- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  \n'}
+[2.771493] (point_lio) StdoutLine: {'line': b'-- Found PCL_MODELER: /usr/include/pcl-1.12  \n'}
+[2.771783] (point_lio) StdoutLine: {'line': b'-- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  \n'}
+[2.772563] (point_lio) StdoutLine: {'line': b'-- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  \n'}
+[2.773416] (point_lio) StdoutLine: {'line': b'-- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  \n'}
+[2.803782] (-) TimerEvent: {}
+[2.810063] (point_lio) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[2.810971] (point_lio) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[2.811120] (point_lio) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[2.888664] (point_lio) StdoutLine: {'line': b'-- Found visualization_msgs: 4.9.1 (/opt/ros/humble/share/visualization_msgs/cmake)\n'}
+[2.903867] (-) TimerEvent: {}
+[3.004088] (-) TimerEvent: {}
+[3.104418] (-) TimerEvent: {}
+[3.204721] (-) TimerEvent: {}
+[3.239061] (point_lio) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found version "3.10.12") \n'}
+[3.304809] (-) TimerEvent: {}
+[3.326311] (point_lio) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.368826] (point_lio) StdoutLine: {'line': b'-- Generating done\n'}
+[3.379797] (point_lio) StdoutLine: {'line': b'-- Build files have been written to: /home/jorgelop/Documents/VantTec_SDV_SWARM/UAV_Proyect/TMR_UAV_2026/workspaces/sensor_stack/catkin_point_lio_unilidar/build/point_lio\n'}
+[3.399382] (point_lio) CommandEnded: {'returncode': 0}
+[3.399847] (point_lio) JobProgress: {'identifier': 'point_lio', 'progress': 'build'}
+[3.399872] (point_lio) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jorgelop/Documents/VantTec_SDV_SWARM/UAV_Proyect/TMR_UAV_2026/workspaces/sensor_stack/catkin_point_lio_unilidar/build/point_lio', '--', '-j16', '-l16'], 'cwd': '/home/jorgelop/Documents/VantTec_SDV_SWARM/UAV_Proyect/TMR_UAV_2026/workspaces/sensor_stack/catkin_point_lio_unilidar/build/point_lio', 'env': OrderedDict([('USER', 'jorgelop'), ('XDG_SESSION_TYPE', 'x11'), ('SALT_LICENSE_SERVER', '/home/jorgelop/intelFPGA/license/LR-292941_License.dat'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jorgelop/Documents/VantTec_SDV_SWARM/SDV_Proyect/SDV_Software_Workspaces/minimal_ws_sensors/install/velodyne_pointcloud/lib:/home/jorgelop/Documents/VantTec_SDV_SWARM/SDV_Proyect/SDV_Software_Workspaces/minimal_ws_sensors/install/velodyne_driver/lib:/home/jorgelop/Documents/VantTec_SDV_SWARM/SDV_Proyect/SDV_Software_Workspaces/minimal_ws_sensors/install/velodyne_msgs/lib:/home/jorgelop/Documents/VantTec_SDV_SWARM/SDV_Proyect/SDV_Software_Workspaces/minimal_ws_sensors/install/velodyne_laserscan/lib:/home/jorgelop/Documents/VantTec_SDV_SWARM/SDV_Proyect/SDV_Software_Workspaces/minimal_ws_sensors/install/vectornav/lib:/home/jorgelop/Documents/VantTec_SDV_SWARM/SDV_Proyect/SDV_Software_Workspaces/minimal_ws_sensors/install/vectornav_msgs/lib:/home/jorgelop/Documents/VantTec_SDV_SWARM/SDV_Proyect/SDV_Software_Workspaces/minimal_ws_sensors/install/v4l2_Multicamera/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jorgelop'), ('OLDPWD', '/home/jorgelop/Documents/VantTec_SDV_SWARM/UAV_Proyect/TMR_UAV_2026/workspaces/sensor_stack'), ('LESS', '-R'), ('CONDA_SHLVL', '0'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/jorgelop/.nvm/versions/node/v20.19.5/bin'), ('ZSH', '/home/jorgelop/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('NVM_INC', '/home/jorgelop/.nvm/versions/node/v20.19.5/include/node'), ('GTK_MODULES', 'gail:atk-bridge'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('MANAGERPID', '1269'), ('SYSTEMD_EXEC_PID', '2360'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('P9K_TTY', 'old'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '6310'), ('QSYS_ROOTDIR', '/home/jorgelop/altera_lite/25.1std/quartus/sopc_builder/bin'), ('_CE_M', ''), ('NVM_DIR', '/home/jorgelop/.nvm'), ('ROS_DISTRO', 'humble'), ('COLCON_PREFIX_PATH', '/home/jorgelop/Documents/VantTec_SDV_SWARM/SDV_Proyect/SDV_Software_Workspaces/minimal_ws_sensors/install'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'jorgelop'), ('JOURNAL_STREAM', '8:23701'), ('_P9K_SSH_TTY', '/dev/pts/1'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('ROS_VERSION', '2'), ('USERNAME', 'jorgelop'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('_CE_CONDA', ''), ('WINDOWPATH', '2'), ('PATH', '/home/jorgelop/.local/bin:/home/jorgelop/.nvm/versions/node/v20.19.5/bin:/home/jorgelop/anaconda3/condabin:/opt/ros/humble/bin:/home/jorgelop/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/jorgelop/.dotnet/tools:/opt/xtensa-esp-elf/bin/'), ('SESSION_MANAGER', 'local/jorgelop07:@/tmp/.ICE-unix/1678,unix/jorgelop07:/tmp/.ICE-unix/1678'), ('INVOCATION_ID', '22a37a7f97274268905e4f9475c1dc5e'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im=ibus'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('AMENT_PREFIX_PATH', '/home/jorgelop/Documents/VantTec_SDV_SWARM/SDV_Proyect/SDV_Software_Workspaces/minimal_ws_sensors/install/velodyne:/home/jorgelop/Documents/VantTec_SDV_SWARM/SDV_Proyect/SDV_Software_Workspaces/minimal_ws_sensors/install/velodyne_pointcloud:/home/jorgelop/Documents/VantTec_SDV_SWARM/SDV_Proyect/SDV_Software_Workspaces/minimal_ws_sensors/install/velodyne_driver:/home/jorgelop/Documents/VantTec_SDV_SWARM/SDV_Proyect/SDV_Software_Workspaces/minimal_ws_sensors/install/velodyne_msgs:/home/jorgelop/Documents/VantTec_SDV_SWARM/SDV_Proyect/SDV_Software_Workspaces/minimal_ws_sensors/install/velodyne_laserscan:/home/jorgelop/Documents/VantTec_SDV_SWARM/SDV_Proyect/SDV_Software_Workspaces/minimal_ws_sensors/install/vectornav:/home/jorgelop/Documents/VantTec_SDV_SWARM/SDV_Proyect/SDV_Software_Workspaces/minimal_ws_sensors/install/vectornav_msgs:/home/jorgelop/Documents/VantTec_SDV_SWARM/SDV_Proyect/SDV_Software_Workspaces/minimal_ws_sensors/install/v4l2_Multicamera:/home/jorgelop/Documents/VantTec_SDV_SWARM/SDV_Proyect/SDV_Software_Workspaces/minimal_ws_sensors/install/sensors_launch:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/jorgelop/anaconda3/bin/python'), ('TERMINATOR_UUID', 'urn:uuid:28510efd-2437-48ac-8246-30fe6b4a45bf'), ('SHELL', '/usr/bin/zsh'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('P9K_SSH', '0'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jorgelop/Documents/VantTec_SDV_SWARM/UAV_Proyect/TMR_UAV_2026/workspaces/sensor_stack/catkin_point_lio_unilidar/build/point_lio'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/home/jorgelop/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/jorgelop/anaconda3/bin/conda'), ('NVM_CD_FLAGS', '-q'), ('_P9K_TTY', '/dev/pts/1'), ('PYTHONPATH', '/home/jorgelop/Documents/VantTec_SDV_SWARM/SDV_Proyect/SDV_Software_Workspaces/minimal_ws_sensors/install/velodyne_msgs/local/lib/python3.10/dist-packages:/home/jorgelop/Documents/VantTec_SDV_SWARM/SDV_Proyect/SDV_Software_Workspaces/minimal_ws_sensors/install/vectornav_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/jorgelop/Documents/VantTec_SDV_SWARM/SDV_Proyect/SDV_Software_Workspaces/minimal_ws_sensors/install/velodyne:/home/jorgelop/Documents/VantTec_SDV_SWARM/SDV_Proyect/SDV_Software_Workspaces/minimal_ws_sensors/install/velodyne_pointcloud:/home/jorgelop/Documents/VantTec_SDV_SWARM/SDV_Proyect/SDV_Software_Workspaces/minimal_ws_sensors/install/velodyne_driver:/home/jorgelop/Documents/VantTec_SDV_SWARM/SDV_Proyect/SDV_Software_Workspaces/minimal_ws_sensors/install/velodyne_msgs:/home/jorgelop/Documents/VantTec_SDV_SWARM/SDV_Proyect/SDV_Software_Workspaces/minimal_ws_sensors/install/velodyne_laserscan:/home/jorgelop/Documents/VantTec_SDV_SWARM/SDV_Proyect/SDV_Software_Workspaces/minimal_ws_sensors/install/vectornav:/home/jorgelop/Documents/VantTec_SDV_SWARM/SDV_Proyect/SDV_Software_Workspaces/minimal_ws_sensors/install/vectornav_msgs:/home/jorgelop/Documents/VantTec_SDV_SWARM/SDV_Proyect/SDV_Software_Workspaces/minimal_ws_sensors/install/v4l2_Multicamera:/home/jorgelop/Documents/VantTec_SDV_SWARM/SDV_Proyect/SDV_Software_Workspaces/minimal_ws_sensors/install/sensors_launch:/opt/ros/humble')]), 'shell': False}
+[3.404869] (-) TimerEvent: {}
+[3.453327] (point_lio) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/pointlio_mapping.dir/src/Estimator.cpp.o\x1b[0m\n'}
+[3.453518] (point_lio) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/pointlio_mapping.dir/include/ikd-Tree/ikd_Tree.cpp.o\x1b[0m\n'}
+[3.453597] (point_lio) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/pointlio_mapping.dir/src/laserMapping.cpp.o\x1b[0m\n'}
+[3.453658] (point_lio) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/pointlio_mapping.dir/src/preprocess.cpp.o\x1b[0m\n'}
+[3.453751] (point_lio) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/pointlio_mapping.dir/src/parameters.cpp.o\x1b[0m\n'}
+[3.504979] (-) TimerEvent: {}
+[3.605303] (-) TimerEvent: {}
+[3.705623] (-) TimerEvent: {}
+[3.805950] (-) TimerEvent: {}
+[3.906281] (-) TimerEvent: {}
+[4.006632] (-) TimerEvent: {}
+[4.106963] (-) TimerEvent: {}
+[4.207314] (-) TimerEvent: {}
+[4.307646] (-) TimerEvent: {}
+[4.408006] (-) TimerEvent: {}
+[4.508418] (-) TimerEvent: {}
+[4.608765] (-) TimerEvent: {}
+[4.709098] (-) TimerEvent: {}
+[4.809449] (-) TimerEvent: {}
+[4.909809] (-) TimerEvent: {}
+[5.010128] (-) TimerEvent: {}
+[5.110474] (-) TimerEvent: {}
+[5.210803] (-) TimerEvent: {}
+[5.311112] (-) TimerEvent: {}
+[5.411446] (-) TimerEvent: {}
+[5.511777] (-) TimerEvent: {}
+[5.612110] (-) TimerEvent: {}
+[5.712444] (-) TimerEvent: {}
+[5.812788] (-) TimerEvent: {}
+[5.913122] (-) TimerEvent: {}
+[6.013469] (-) TimerEvent: {}
+[6.113798] (-) TimerEvent: {}
+[6.214139] (-) TimerEvent: {}
+[6.314507] (-) TimerEvent: {}
+[6.414825] (-) TimerEvent: {}
+[6.515135] (-) TimerEvent: {}
+[6.615470] (-) TimerEvent: {}
+[6.715798] (-) TimerEvent: {}
+[6.816088] (-) TimerEvent: {}
+[6.916404] (-) TimerEvent: {}
+[7.016746] (-) TimerEvent: {}
+[7.117054] (-) TimerEvent: {}
+[7.217354] (-) TimerEvent: {}
+[7.317654] (-) TimerEvent: {}
+[7.417968] (-) TimerEvent: {}
+[7.518246] (-) TimerEvent: {}
+[7.618596] (-) TimerEvent: {}
+[7.718909] (-) TimerEvent: {}
+[7.819238] (-) TimerEvent: {}
+[7.919565] (-) TimerEvent: {}
+[8.019856] (-) TimerEvent: {}
+[8.120158] (-) TimerEvent: {}
+[8.220458] (-) TimerEvent: {}
+[8.320735] (-) TimerEvent: {}
+[8.421043] (-) TimerEvent: {}
+[8.521363] (-) TimerEvent: {}
+[8.621671] (-) TimerEvent: {}
+[8.721979] (-) TimerEvent: {}
+[8.822240] (-) TimerEvent: {}
+[8.922538] (-) TimerEvent: {}
+[9.022837] (-) TimerEvent: {}
+[9.123129] (-) TimerEvent: {}
+[9.223442] (-) TimerEvent: {}
+[9.323728] (-) TimerEvent: {}
+[9.424029] (-) TimerEvent: {}
+[9.524346] (-) TimerEvent: {}
+[9.624662] (-) TimerEvent: {}
+[9.724964] (-) TimerEvent: {}
+[9.825352] (-) TimerEvent: {}
+[9.925639] (-) TimerEvent: {}
+[10.025964] (-) TimerEvent: {}
+[10.126250] (-) TimerEvent: {}
+[10.226562] (-) TimerEvent: {}
+[10.326842] (-) TimerEvent: {}
+[10.427141] (-) TimerEvent: {}
+[10.527457] (-) TimerEvent: {}
+[10.627747] (-) TimerEvent: {}
+[10.728136] (-) TimerEvent: {}
+[10.828438] (-) TimerEvent: {}
+[10.928741] (-) TimerEvent: {}
+[11.029043] (-) TimerEvent: {}
+[11.129350] (-) TimerEvent: {}
+[11.229610] (-) TimerEvent: {}
+[11.329862] (-) TimerEvent: {}
+[11.430161] (-) TimerEvent: {}
+[11.530438] (-) TimerEvent: {}
+[11.630726] (-) TimerEvent: {}
+[11.730990] (-) TimerEvent: {}
+[11.831293] (-) TimerEvent: {}
+[11.931587] (-) TimerEvent: {}
+[12.031871] (-) TimerEvent: {}
+[12.132157] (-) TimerEvent: {}
+[12.232468] (-) TimerEvent: {}
+[12.332760] (-) TimerEvent: {}
+[12.433038] (-) TimerEvent: {}
+[12.533321] (-) TimerEvent: {}
+[12.633611] (-) TimerEvent: {}
+[12.733901] (-) TimerEvent: {}
+[12.834202] (-) TimerEvent: {}
+[12.934490] (-) TimerEvent: {}
+[13.034782] (-) TimerEvent: {}
+[13.135057] (-) TimerEvent: {}
+[13.235360] (-) TimerEvent: {}
+[13.335650] (-) TimerEvent: {}
+[13.435938] (-) TimerEvent: {}
+[13.536233] (-) TimerEvent: {}
+[13.636520] (-) TimerEvent: {}
+[13.736805] (-) TimerEvent: {}
+[13.837102] (-) TimerEvent: {}
+[13.937394] (-) TimerEvent: {}
+[14.037684] (-) TimerEvent: {}
+[14.137966] (-) TimerEvent: {}
+[14.238241] (-) TimerEvent: {}
+[14.338521] (-) TimerEvent: {}
+[14.438811] (-) TimerEvent: {}
+[14.539113] (-) TimerEvent: {}
+[14.639428] (-) TimerEvent: {}
+[14.739738] (-) TimerEvent: {}
+[14.840015] (-) TimerEvent: {}
+[14.940313] (-) TimerEvent: {}
+[15.040604] (-) TimerEvent: {}
+[15.140890] (-) TimerEvent: {}
+[15.241185] (-) TimerEvent: {}
+[15.341463] (-) TimerEvent: {}
+[15.441759] (-) TimerEvent: {}
+[15.542033] (-) TimerEvent: {}
+[15.642333] (-) TimerEvent: {}
+[15.742630] (-) TimerEvent: {}
+[15.842930] (-) TimerEvent: {}
+[15.943287] (-) TimerEvent: {}
+[16.043643] (-) TimerEvent: {}
+[16.143935] (-) TimerEvent: {}
+[16.244228] (-) TimerEvent: {}
+[16.344515] (-) TimerEvent: {}
+[16.444810] (-) TimerEvent: {}
+[16.545104] (-) TimerEvent: {}
+[16.645407] (-) TimerEvent: {}
+[16.745698] (-) TimerEvent: {}
+[16.845989] (-) TimerEvent: {}
+[16.946287] (-) TimerEvent: {}
+[17.046574] (-) TimerEvent: {}
+[17.146860] (-) TimerEvent: {}
+[17.247145] (-) TimerEvent: {}
+[17.347439] (-) TimerEvent: {}
+[17.447729] (-) TimerEvent: {}
+[17.548020] (-) TimerEvent: {}
+[17.648338] (-) TimerEvent: {}
+[17.748605] (-) TimerEvent: {}
+[17.848880] (-) TimerEvent: {}
+[17.949155] (-) TimerEvent: {}
+[18.049457] (-) TimerEvent: {}
+[18.149754] (-) TimerEvent: {}
+[18.250102] (-) TimerEvent: {}
+[18.350401] (-) TimerEvent: {}
+[18.450686] (-) TimerEvent: {}
+[18.550972] (-) TimerEvent: {}
+[18.651253] (-) TimerEvent: {}
+[18.751549] (-) TimerEvent: {}
+[18.851841] (-) TimerEvent: {}
+[18.952127] (-) TimerEvent: {}
+[19.052429] (-) TimerEvent: {}
+[19.152716] (-) TimerEvent: {}
+[19.252981] (-) TimerEvent: {}
+[19.353252] (-) TimerEvent: {}
+[19.453541] (-) TimerEvent: {}
+[19.553859] (-) TimerEvent: {}
+[19.654138] (-) TimerEvent: {}
+[19.754784] (-) TimerEvent: {}
+[19.855059] (-) TimerEvent: {}
+[19.955347] (-) TimerEvent: {}
+[20.055636] (-) TimerEvent: {}
+[20.155917] (-) TimerEvent: {}
+[20.256251] (-) TimerEvent: {}
+[20.356542] (-) TimerEvent: {}
+[20.456827] (-) TimerEvent: {}
+[20.557114] (-) TimerEvent: {}
+[20.657405] (-) TimerEvent: {}
+[20.757682] (-) TimerEvent: {}
+[20.857972] (-) TimerEvent: {}
+[20.958241] (-) TimerEvent: {}
+[21.058541] (-) TimerEvent: {}
+[21.158830] (-) TimerEvent: {}
+[21.259105] (-) TimerEvent: {}
+[21.359389] (-) TimerEvent: {}
+[21.459662] (-) TimerEvent: {}
+[21.559960] (-) TimerEvent: {}
+[21.660231] (-) TimerEvent: {}
+[21.760484] (-) TimerEvent: {}
+[21.860760] (-) TimerEvent: {}
+[21.961017] (-) TimerEvent: {}
+[22.061283] (-) TimerEvent: {}
+[22.161547] (-) TimerEvent: {}
+[22.261832] (-) TimerEvent: {}
+[22.362104] (-) TimerEvent: {}
+[22.462383] (-) TimerEvent: {}
+[22.562651] (-) TimerEvent: {}
+[22.662920] (-) TimerEvent: {}
+[22.763205] (-) TimerEvent: {}
+[22.863482] (-) TimerEvent: {}
+[22.963752] (-) TimerEvent: {}
+[23.064026] (-) TimerEvent: {}
+[23.164330] (-) TimerEvent: {}
+[23.264603] (-) TimerEvent: {}
+[23.364876] (-) TimerEvent: {}
+[23.465153] (-) TimerEvent: {}
+[23.565438] (-) TimerEvent: {}
+[23.665722] (-) TimerEvent: {}
+[23.766001] (-) TimerEvent: {}
+[23.866282] (-) TimerEvent: {}
+[23.966556] (-) TimerEvent: {}
+[24.066826] (-) TimerEvent: {}
+[24.167104] (-) TimerEvent: {}
+[24.267392] (-) TimerEvent: {}
+[24.367672] (-) TimerEvent: {}
+[24.467946] (-) TimerEvent: {}
+[24.568222] (-) TimerEvent: {}
+[24.668502] (-) TimerEvent: {}
+[24.768765] (-) TimerEvent: {}
+[24.869033] (-) TimerEvent: {}
+[24.969319] (-) TimerEvent: {}
+[25.069586] (-) TimerEvent: {}
+[25.169854] (-) TimerEvent: {}
+[25.270119] (-) TimerEvent: {}
+[25.370399] (-) TimerEvent: {}
+[25.470681] (-) TimerEvent: {}
+[25.570943] (-) TimerEvent: {}
+[25.671232] (-) TimerEvent: {}
+[25.771509] (-) TimerEvent: {}
+[25.871792] (-) TimerEvent: {}
+[25.972073] (-) TimerEvent: {}
+[26.072361] (-) TimerEvent: {}
+[26.172631] (-) TimerEvent: {}
+[26.272924] (-) TimerEvent: {}
+[26.373236] (-) TimerEvent: {}
+[26.473531] (-) TimerEvent: {}
+[26.573814] (-) TimerEvent: {}
+[26.674103] (-) TimerEvent: {}
+[26.774457] (-) TimerEvent: {}
+[26.874741] (-) TimerEvent: {}
+[26.975014] (-) TimerEvent: {}
+[27.075289] (-) TimerEvent: {}
+[27.175552] (-) TimerEvent: {}
+[27.275822] (-) TimerEvent: {}
+[27.376098] (-) TimerEvent: {}
+[27.476381] (-) TimerEvent: {}
+[27.576671] (-) TimerEvent: {}
+[27.676948] (-) TimerEvent: {}
+[27.777229] (-) TimerEvent: {}
+[27.877507] (-) TimerEvent: {}
+[27.977782] (-) TimerEvent: {}
+[28.078053] (-) TimerEvent: {}
+[28.178337] (-) TimerEvent: {}
+[28.278643] (-) TimerEvent: {}
+[28.378986] (-) TimerEvent: {}
+[28.479263] (-) TimerEvent: {}
+[28.579534] (-) TimerEvent: {}
+[28.679799] (-) TimerEvent: {}
+[28.780069] (-) TimerEvent: {}
+[28.880348] (-) TimerEvent: {}
+[28.980615] (-) TimerEvent: {}
+[29.080886] (-) TimerEvent: {}
+[29.181163] (-) TimerEvent: {}
+[29.281443] (-) TimerEvent: {}
+[29.381711] (-) TimerEvent: {}
+[29.481977] (-) TimerEvent: {}
+[29.582244] (-) TimerEvent: {}
+[29.682515] (-) TimerEvent: {}
+[29.782786] (-) TimerEvent: {}
+[29.883058] (-) TimerEvent: {}
+[29.983341] (-) TimerEvent: {}
+[30.083616] (-) TimerEvent: {}
+[30.183876] (-) TimerEvent: {}
+[30.284130] (-) TimerEvent: {}
+[30.384421] (-) TimerEvent: {}
+[30.485286] (-) TimerEvent: {}
+[30.585559] (-) TimerEvent: {}
+[30.686263] (-) TimerEvent: {}
+[30.786534] (-) TimerEvent: {}
+[30.886799] (-) TimerEvent: {}
+[30.987070] (-) TimerEvent: {}
+[31.087352] (-) TimerEvent: {}
+[31.187622] (-) TimerEvent: {}
+[31.287906] (-) TimerEvent: {}
+[31.388191] (-) TimerEvent: {}
+[31.488471] (-) TimerEvent: {}
+[31.588744] (-) TimerEvent: {}
+[31.689013] (-) TimerEvent: {}
+[31.789308] (-) TimerEvent: {}
+[31.889575] (-) TimerEvent: {}
+[31.989849] (-) TimerEvent: {}
+[32.090117] (-) TimerEvent: {}
+[32.190400] (-) TimerEvent: {}
+[32.290681] (-) TimerEvent: {}
+[32.390968] (-) TimerEvent: {}
+[32.491244] (-) TimerEvent: {}
+[32.591527] (-) TimerEvent: {}
+[32.691803] (-) TimerEvent: {}
+[32.792077] (-) TimerEvent: {}
+[32.892387] (-) TimerEvent: {}
+[32.992658] (-) TimerEvent: {}
+[33.092933] (-) TimerEvent: {}
+[33.193218] (-) TimerEvent: {}
+[33.293486] (-) TimerEvent: {}
+[33.393768] (-) TimerEvent: {}
+[33.494039] (-) TimerEvent: {}
+[33.594323] (-) TimerEvent: {}
+[33.694602] (-) TimerEvent: {}
+[33.794889] (-) TimerEvent: {}
+[33.895149] (-) TimerEvent: {}
+[33.995406] (-) TimerEvent: {}
+[34.095680] (-) TimerEvent: {}
+[34.195948] (-) TimerEvent: {}
+[34.296221] (-) TimerEvent: {}
+[34.396495] (-) TimerEvent: {}
+[34.496746] (-) TimerEvent: {}
+[34.597017] (-) TimerEvent: {}
+[34.697307] (-) TimerEvent: {}
+[34.797582] (-) TimerEvent: {}
+[34.897851] (-) TimerEvent: {}
+[34.998125] (-) TimerEvent: {}
+[35.098412] (-) TimerEvent: {}
+[35.198680] (-) TimerEvent: {}
+[35.298952] (-) TimerEvent: {}
+[35.399240] (-) TimerEvent: {}
+[35.499509] (-) TimerEvent: {}
+[35.600025] (-) TimerEvent: {}
+[35.700309] (-) TimerEvent: {}
+[35.800583] (-) TimerEvent: {}
+[35.900852] (-) TimerEvent: {}
+[36.001120] (-) TimerEvent: {}
+[36.101402] (-) TimerEvent: {}
+[36.201678] (-) TimerEvent: {}
+[36.301945] (-) TimerEvent: {}
+[36.402231] (-) TimerEvent: {}
+[36.502488] (-) TimerEvent: {}
+[36.602760] (-) TimerEvent: {}
+[36.703049] (-) TimerEvent: {}
+[36.803420] (-) TimerEvent: {}
+[36.903686] (-) TimerEvent: {}
+[37.003949] (-) TimerEvent: {}
+[37.104246] (-) TimerEvent: {}
+[37.204518] (-) TimerEvent: {}
+[37.304790] (-) TimerEvent: {}
+[37.405064] (-) TimerEvent: {}
+[37.505355] (-) TimerEvent: {}
+[37.605637] (-) TimerEvent: {}
+[37.705900] (-) TimerEvent: {}
+[37.806167] (-) TimerEvent: {}
+[37.906440] (-) TimerEvent: {}
+[38.006698] (-) TimerEvent: {}
+[38.106962] (-) TimerEvent: {}
+[38.207285] (-) TimerEvent: {}
+[38.307812] (-) TimerEvent: {}
+[38.408098] (-) TimerEvent: {}
+[38.508423] (-) TimerEvent: {}
+[38.608702] (-) TimerEvent: {}
+[38.708988] (-) TimerEvent: {}
+[38.809238] (-) TimerEvent: {}
+[38.909515] (-) TimerEvent: {}
+[39.009786] (-) TimerEvent: {}
+[39.110063] (-) TimerEvent: {}
+[39.210374] (-) TimerEvent: {}
+[39.310653] (-) TimerEvent: {}
+[39.411045] (-) TimerEvent: {}
+[39.411794] (point_lio) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable pointlio_mapping\x1b[0m\n'}
+[39.511145] (-) TimerEvent: {}
+[39.611488] (-) TimerEvent: {}
+[39.711768] (-) TimerEvent: {}
+[39.812071] (-) TimerEvent: {}
+[39.912390] (-) TimerEvent: {}
+[40.012667] (-) TimerEvent: {}
+[40.054708] (point_lio) StdoutLine: {'line': b'[100%] Built target pointlio_mapping\n'}
+[40.065787] (point_lio) CommandEnded: {'returncode': 0}
+[40.066455] (point_lio) JobProgress: {'identifier': 'point_lio', 'progress': 'install'}
+[40.074845] (point_lio) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/jorgelop/Documents/VantTec_SDV_SWARM/UAV_Proyect/TMR_UAV_2026/workspaces/sensor_stack/catkin_point_lio_unilidar/build/point_lio'], 'cwd': '/home/jorgelop/Documents/VantTec_SDV_SWARM/UAV_Proyect/TMR_UAV_2026/workspaces/sensor_stack/catkin_point_lio_unilidar/build/point_lio', 'env': OrderedDict([('USER', 'jorgelop'), ('XDG_SESSION_TYPE', 'x11'), ('SALT_LICENSE_SERVER', '/home/jorgelop/intelFPGA/license/LR-292941_License.dat'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jorgelop/Documents/VantTec_SDV_SWARM/SDV_Proyect/SDV_Software_Workspaces/minimal_ws_sensors/install/velodyne_pointcloud/lib:/home/jorgelop/Documents/VantTec_SDV_SWARM/SDV_Proyect/SDV_Software_Workspaces/minimal_ws_sensors/install/velodyne_driver/lib:/home/jorgelop/Documents/VantTec_SDV_SWARM/SDV_Proyect/SDV_Software_Workspaces/minimal_ws_sensors/install/velodyne_msgs/lib:/home/jorgelop/Documents/VantTec_SDV_SWARM/SDV_Proyect/SDV_Software_Workspaces/minimal_ws_sensors/install/velodyne_laserscan/lib:/home/jorgelop/Documents/VantTec_SDV_SWARM/SDV_Proyect/SDV_Software_Workspaces/minimal_ws_sensors/install/vectornav/lib:/home/jorgelop/Documents/VantTec_SDV_SWARM/SDV_Proyect/SDV_Software_Workspaces/minimal_ws_sensors/install/vectornav_msgs/lib:/home/jorgelop/Documents/VantTec_SDV_SWARM/SDV_Proyect/SDV_Software_Workspaces/minimal_ws_sensors/install/v4l2_Multicamera/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jorgelop'), ('OLDPWD', '/home/jorgelop/Documents/VantTec_SDV_SWARM/UAV_Proyect/TMR_UAV_2026/workspaces/sensor_stack'), ('LESS', '-R'), ('CONDA_SHLVL', '0'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/jorgelop/.nvm/versions/node/v20.19.5/bin'), ('ZSH', '/home/jorgelop/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('NVM_INC', '/home/jorgelop/.nvm/versions/node/v20.19.5/include/node'), ('GTK_MODULES', 'gail:atk-bridge'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('MANAGERPID', '1269'), ('SYSTEMD_EXEC_PID', '2360'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('P9K_TTY', 'old'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '6310'), ('QSYS_ROOTDIR', '/home/jorgelop/altera_lite/25.1std/quartus/sopc_builder/bin'), ('_CE_M', ''), ('NVM_DIR', '/home/jorgelop/.nvm'), ('ROS_DISTRO', 'humble'), ('COLCON_PREFIX_PATH', '/home/jorgelop/Documents/VantTec_SDV_SWARM/SDV_Proyect/SDV_Software_Workspaces/minimal_ws_sensors/install'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'jorgelop'), ('JOURNAL_STREAM', '8:23701'), ('_P9K_SSH_TTY', '/dev/pts/1'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('ROS_VERSION', '2'), ('USERNAME', 'jorgelop'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('_CE_CONDA', ''), ('WINDOWPATH', '2'), ('PATH', '/home/jorgelop/.local/bin:/home/jorgelop/.nvm/versions/node/v20.19.5/bin:/home/jorgelop/anaconda3/condabin:/opt/ros/humble/bin:/home/jorgelop/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/jorgelop/.dotnet/tools:/opt/xtensa-esp-elf/bin/'), ('SESSION_MANAGER', 'local/jorgelop07:@/tmp/.ICE-unix/1678,unix/jorgelop07:/tmp/.ICE-unix/1678'), ('INVOCATION_ID', '22a37a7f97274268905e4f9475c1dc5e'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im=ibus'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('AMENT_PREFIX_PATH', '/home/jorgelop/Documents/VantTec_SDV_SWARM/SDV_Proyect/SDV_Software_Workspaces/minimal_ws_sensors/install/velodyne:/home/jorgelop/Documents/VantTec_SDV_SWARM/SDV_Proyect/SDV_Software_Workspaces/minimal_ws_sensors/install/velodyne_pointcloud:/home/jorgelop/Documents/VantTec_SDV_SWARM/SDV_Proyect/SDV_Software_Workspaces/minimal_ws_sensors/install/velodyne_driver:/home/jorgelop/Documents/VantTec_SDV_SWARM/SDV_Proyect/SDV_Software_Workspaces/minimal_ws_sensors/install/velodyne_msgs:/home/jorgelop/Documents/VantTec_SDV_SWARM/SDV_Proyect/SDV_Software_Workspaces/minimal_ws_sensors/install/velodyne_laserscan:/home/jorgelop/Documents/VantTec_SDV_SWARM/SDV_Proyect/SDV_Software_Workspaces/minimal_ws_sensors/install/vectornav:/home/jorgelop/Documents/VantTec_SDV_SWARM/SDV_Proyect/SDV_Software_Workspaces/minimal_ws_sensors/install/vectornav_msgs:/home/jorgelop/Documents/VantTec_SDV_SWARM/SDV_Proyect/SDV_Software_Workspaces/minimal_ws_sensors/install/v4l2_Multicamera:/home/jorgelop/Documents/VantTec_SDV_SWARM/SDV_Proyect/SDV_Software_Workspaces/minimal_ws_sensors/install/sensors_launch:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/jorgelop/anaconda3/bin/python'), ('TERMINATOR_UUID', 'urn:uuid:28510efd-2437-48ac-8246-30fe6b4a45bf'), ('SHELL', '/usr/bin/zsh'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('P9K_SSH', '0'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jorgelop/Documents/VantTec_SDV_SWARM/UAV_Proyect/TMR_UAV_2026/workspaces/sensor_stack/catkin_point_lio_unilidar/build/point_lio'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/home/jorgelop/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/jorgelop/anaconda3/bin/conda'), ('NVM_CD_FLAGS', '-q'), ('_P9K_TTY', '/dev/pts/1'), ('PYTHONPATH', '/home/jorgelop/Documents/VantTec_SDV_SWARM/SDV_Proyect/SDV_Software_Workspaces/minimal_ws_sensors/install/velodyne_msgs/local/lib/python3.10/dist-packages:/home/jorgelop/Documents/VantTec_SDV_SWARM/SDV_Proyect/SDV_Software_Workspaces/minimal_ws_sensors/install/vectornav_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/jorgelop/Documents/VantTec_SDV_SWARM/SDV_Proyect/SDV_Software_Workspaces/minimal_ws_sensors/install/velodyne:/home/jorgelop/Documents/VantTec_SDV_SWARM/SDV_Proyect/SDV_Software_Workspaces/minimal_ws_sensors/install/velodyne_pointcloud:/home/jorgelop/Documents/VantTec_SDV_SWARM/SDV_Proyect/SDV_Software_Workspaces/minimal_ws_sensors/install/velodyne_driver:/home/jorgelop/Documents/VantTec_SDV_SWARM/SDV_Proyect/SDV_Software_Workspaces/minimal_ws_sensors/install/velodyne_msgs:/home/jorgelop/Documents/VantTec_SDV_SWARM/SDV_Proyect/SDV_Software_Workspaces/minimal_ws_sensors/install/velodyne_laserscan:/home/jorgelop/Documents/VantTec_SDV_SWARM/SDV_Proyect/SDV_Software_Workspaces/minimal_ws_sensors/install/vectornav:/home/jorgelop/Documents/VantTec_SDV_SWARM/SDV_Proyect/SDV_Software_Workspaces/minimal_ws_sensors/install/vectornav_msgs:/home/jorgelop/Documents/VantTec_SDV_SWARM/SDV_Proyect/SDV_Software_Workspaces/minimal_ws_sensors/install/v4l2_Multicamera:/home/jorgelop/Documents/VantTec_SDV_SWARM/SDV_Proyect/SDV_Software_Workspaces/minimal_ws_sensors/install/sensors_launch:/opt/ros/humble')]), 'shell': False}
+[40.082884] (point_lio) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[40.083086] (point_lio) StdoutLine: {'line': b'-- Installing: /home/jorgelop/Documents/VantTec_SDV_SWARM/UAV_Proyect/TMR_UAV_2026/workspaces/sensor_stack/catkin_point_lio_unilidar/install/point_lio/lib/point_lio/pointlio_mapping\n'}
+[40.085569] (point_lio) StdoutLine: {'line': b'-- Set runtime path of "/home/jorgelop/Documents/VantTec_SDV_SWARM/UAV_Proyect/TMR_UAV_2026/workspaces/sensor_stack/catkin_point_lio_unilidar/install/point_lio/lib/point_lio/pointlio_mapping" to ""\n'}
+[40.085704] (point_lio) StdoutLine: {'line': b'-- Installing: /home/jorgelop/Documents/VantTec_SDV_SWARM/UAV_Proyect/TMR_UAV_2026/workspaces/sensor_stack/catkin_point_lio_unilidar/install/point_lio/share/point_lio/config\n'}
+[40.085854] (point_lio) StdoutLine: {'line': b'-- Installing: /home/jorgelop/Documents/VantTec_SDV_SWARM/UAV_Proyect/TMR_UAV_2026/workspaces/sensor_stack/catkin_point_lio_unilidar/install/point_lio/share/point_lio/config/unilidar_l2.yaml\n'}
+[40.085969] (point_lio) StdoutLine: {'line': b'-- Installing: /home/jorgelop/Documents/VantTec_SDV_SWARM/UAV_Proyect/TMR_UAV_2026/workspaces/sensor_stack/catkin_point_lio_unilidar/install/point_lio/share/point_lio/config/ouster64.yaml\n'}
+[40.086053] (point_lio) StdoutLine: {'line': b'-- Installing: /home/jorgelop/Documents/VantTec_SDV_SWARM/UAV_Proyect/TMR_UAV_2026/workspaces/sensor_stack/catkin_point_lio_unilidar/install/point_lio/share/point_lio/config/avia.yaml\n'}
+[40.086150] (point_lio) StdoutLine: {'line': b'-- Installing: /home/jorgelop/Documents/VantTec_SDV_SWARM/UAV_Proyect/TMR_UAV_2026/workspaces/sensor_stack/catkin_point_lio_unilidar/install/point_lio/share/point_lio/config/velody16.yaml\n'}
+[40.086268] (point_lio) StdoutLine: {'line': b'-- Installing: /home/jorgelop/Documents/VantTec_SDV_SWARM/UAV_Proyect/TMR_UAV_2026/workspaces/sensor_stack/catkin_point_lio_unilidar/install/point_lio/share/point_lio/config/horizon.yaml\n'}
+[40.086381] (point_lio) StdoutLine: {'line': b'-- Installing: /home/jorgelop/Documents/VantTec_SDV_SWARM/UAV_Proyect/TMR_UAV_2026/workspaces/sensor_stack/catkin_point_lio_unilidar/install/point_lio/share/point_lio/config/mid360.yaml\n'}
+[40.086495] (point_lio) StdoutLine: {'line': b'-- Installing: /home/jorgelop/Documents/VantTec_SDV_SWARM/UAV_Proyect/TMR_UAV_2026/workspaces/sensor_stack/catkin_point_lio_unilidar/install/point_lio/share/point_lio/config/unilidar_l1.yaml\n'}
+[40.086612] (point_lio) StdoutLine: {'line': b'-- Installing: /home/jorgelop/Documents/VantTec_SDV_SWARM/UAV_Proyect/TMR_UAV_2026/workspaces/sensor_stack/catkin_point_lio_unilidar/install/point_lio/share/point_lio/launch\n'}
+[40.086722] (point_lio) StdoutLine: {'line': b'-- Installing: /home/jorgelop/Documents/VantTec_SDV_SWARM/UAV_Proyect/TMR_UAV_2026/workspaces/sensor_stack/catkin_point_lio_unilidar/install/point_lio/share/point_lio/launch/mapping_unilidar_l1.launch.py\n'}
+[40.086822] (point_lio) StdoutLine: {'line': b'-- Installing: /home/jorgelop/Documents/VantTec_SDV_SWARM/UAV_Proyect/TMR_UAV_2026/workspaces/sensor_stack/catkin_point_lio_unilidar/install/point_lio/share/point_lio/launch/gdb_debug_example.launch.py\n'}
+[40.086938] (point_lio) StdoutLine: {'line': b'-- Installing: /home/jorgelop/Documents/VantTec_SDV_SWARM/UAV_Proyect/TMR_UAV_2026/workspaces/sensor_stack/catkin_point_lio_unilidar/install/point_lio/share/point_lio/launch/mapping_mid360.launch.py\n'}
+[40.087052] (point_lio) StdoutLine: {'line': b'-- Installing: /home/jorgelop/Documents/VantTec_SDV_SWARM/UAV_Proyect/TMR_UAV_2026/workspaces/sensor_stack/catkin_point_lio_unilidar/install/point_lio/share/point_lio/launch/mapping_ouster64.launch.py\n'}
+[40.087163] (point_lio) StdoutLine: {'line': b'-- Installing: /home/jorgelop/Documents/VantTec_SDV_SWARM/UAV_Proyect/TMR_UAV_2026/workspaces/sensor_stack/catkin_point_lio_unilidar/install/point_lio/share/point_lio/launch/mapping_unilidar_l2.launch.py\n'}
+[40.087290] (point_lio) StdoutLine: {'line': b'-- Installing: /home/jorgelop/Documents/VantTec_SDV_SWARM/UAV_Proyect/TMR_UAV_2026/workspaces/sensor_stack/catkin_point_lio_unilidar/install/point_lio/share/point_lio/launch/correct_odom_unilidar_l1.launch.py\n'}
+[40.087404] (point_lio) StdoutLine: {'line': b'-- Installing: /home/jorgelop/Documents/VantTec_SDV_SWARM/UAV_Proyect/TMR_UAV_2026/workspaces/sensor_stack/catkin_point_lio_unilidar/install/point_lio/share/point_lio/launch/mapping_velody16.launch.py\n'}
+[40.087519] (point_lio) StdoutLine: {'line': b'-- Installing: /home/jorgelop/Documents/VantTec_SDV_SWARM/UAV_Proyect/TMR_UAV_2026/workspaces/sensor_stack/catkin_point_lio_unilidar/install/point_lio/share/point_lio/launch/__pycache__\n'}
+[40.087609] (point_lio) StdoutLine: {'line': b'-- Installing: /home/jorgelop/Documents/VantTec_SDV_SWARM/UAV_Proyect/TMR_UAV_2026/workspaces/sensor_stack/catkin_point_lio_unilidar/install/point_lio/share/point_lio/launch/__pycache__/mapping_unilidar_l1.launch.cpython-310.pyc\n'}
+[40.087725] (point_lio) StdoutLine: {'line': b'-- Installing: /home/jorgelop/Documents/VantTec_SDV_SWARM/UAV_Proyect/TMR_UAV_2026/workspaces/sensor_stack/catkin_point_lio_unilidar/install/point_lio/share/point_lio/launch/mapping_avia.launch.py\n'}
+[40.087839] (point_lio) StdoutLine: {'line': b'-- Installing: /home/jorgelop/Documents/VantTec_SDV_SWARM/UAV_Proyect/TMR_UAV_2026/workspaces/sensor_stack/catkin_point_lio_unilidar/install/point_lio/share/point_lio/launch/mapping_horizon.launch.py\n'}
+[40.087952] (point_lio) StdoutLine: {'line': b'-- Installing: /home/jorgelop/Documents/VantTec_SDV_SWARM/UAV_Proyect/TMR_UAV_2026/workspaces/sensor_stack/catkin_point_lio_unilidar/install/point_lio/share/point_lio/launch/correct_odom_unilidar_l2.launch.py\n'}
+[40.088072] (point_lio) StdoutLine: {'line': b'-- Installing: /home/jorgelop/Documents/VantTec_SDV_SWARM/UAV_Proyect/TMR_UAV_2026/workspaces/sensor_stack/catkin_point_lio_unilidar/install/point_lio/share/point_lio/rviz_cfg\n'}
+[40.088147] (point_lio) StdoutLine: {'line': b'-- Installing: /home/jorgelop/Documents/VantTec_SDV_SWARM/UAV_Proyect/TMR_UAV_2026/workspaces/sensor_stack/catkin_point_lio_unilidar/install/point_lio/share/point_lio/rviz_cfg/loam_livox.rviz\n'}
+[40.088416] (point_lio) StdoutLine: {'line': b'-- Installing: /home/jorgelop/Documents/VantTec_SDV_SWARM/UAV_Proyect/TMR_UAV_2026/workspaces/sensor_stack/catkin_point_lio_unilidar/install/point_lio/share/ament_index/resource_index/package_run_dependencies/point_lio\n'}
+[40.088618] (point_lio) StdoutLine: {'line': b'-- Installing: /home/jorgelop/Documents/VantTec_SDV_SWARM/UAV_Proyect/TMR_UAV_2026/workspaces/sensor_stack/catkin_point_lio_unilidar/install/point_lio/share/ament_index/resource_index/parent_prefix_path/point_lio\n'}
+[40.088811] (point_lio) StdoutLine: {'line': b'-- Installing: /home/jorgelop/Documents/VantTec_SDV_SWARM/UAV_Proyect/TMR_UAV_2026/workspaces/sensor_stack/catkin_point_lio_unilidar/install/point_lio/share/point_lio/environment/ament_prefix_path.sh\n'}
+[40.088950] (point_lio) StdoutLine: {'line': b'-- Installing: /home/jorgelop/Documents/VantTec_SDV_SWARM/UAV_Proyect/TMR_UAV_2026/workspaces/sensor_stack/catkin_point_lio_unilidar/install/point_lio/share/point_lio/environment/ament_prefix_path.dsv\n'}
+[40.089094] (point_lio) StdoutLine: {'line': b'-- Installing: /home/jorgelop/Documents/VantTec_SDV_SWARM/UAV_Proyect/TMR_UAV_2026/workspaces/sensor_stack/catkin_point_lio_unilidar/install/point_lio/share/point_lio/environment/path.sh\n'}
+[40.089238] (point_lio) StdoutLine: {'line': b'-- Installing: /home/jorgelop/Documents/VantTec_SDV_SWARM/UAV_Proyect/TMR_UAV_2026/workspaces/sensor_stack/catkin_point_lio_unilidar/install/point_lio/share/point_lio/environment/path.dsv\n'}
+[40.089379] (point_lio) StdoutLine: {'line': b'-- Installing: /home/jorgelop/Documents/VantTec_SDV_SWARM/UAV_Proyect/TMR_UAV_2026/workspaces/sensor_stack/catkin_point_lio_unilidar/install/point_lio/share/point_lio/local_setup.bash\n'}
+[40.089538] (point_lio) StdoutLine: {'line': b'-- Installing: /home/jorgelop/Documents/VantTec_SDV_SWARM/UAV_Proyect/TMR_UAV_2026/workspaces/sensor_stack/catkin_point_lio_unilidar/install/point_lio/share/point_lio/local_setup.sh\n'}
+[40.089699] (point_lio) StdoutLine: {'line': b'-- Installing: /home/jorgelop/Documents/VantTec_SDV_SWARM/UAV_Proyect/TMR_UAV_2026/workspaces/sensor_stack/catkin_point_lio_unilidar/install/point_lio/share/point_lio/local_setup.zsh\n'}
+[40.089856] (point_lio) StdoutLine: {'line': b'-- Installing: /home/jorgelop/Documents/VantTec_SDV_SWARM/UAV_Proyect/TMR_UAV_2026/workspaces/sensor_stack/catkin_point_lio_unilidar/install/point_lio/share/point_lio/local_setup.dsv\n'}
+[40.090010] (point_lio) StdoutLine: {'line': b'-- Installing: /home/jorgelop/Documents/VantTec_SDV_SWARM/UAV_Proyect/TMR_UAV_2026/workspaces/sensor_stack/catkin_point_lio_unilidar/install/point_lio/share/point_lio/package.dsv\n'}
+[40.090246] (point_lio) StdoutLine: {'line': b'-- Installing: /home/jorgelop/Documents/VantTec_SDV_SWARM/UAV_Proyect/TMR_UAV_2026/workspaces/sensor_stack/catkin_point_lio_unilidar/install/point_lio/share/ament_index/resource_index/packages/point_lio\n'}
+[40.090433] (point_lio) StdoutLine: {'line': b'-- Installing: /home/jorgelop/Documents/VantTec_SDV_SWARM/UAV_Proyect/TMR_UAV_2026/workspaces/sensor_stack/catkin_point_lio_unilidar/install/point_lio/share/point_lio/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[40.090575] (point_lio) StdoutLine: {'line': b'-- Installing: /home/jorgelop/Documents/VantTec_SDV_SWARM/UAV_Proyect/TMR_UAV_2026/workspaces/sensor_stack/catkin_point_lio_unilidar/install/point_lio/share/point_lio/cmake/point_lioConfig.cmake\n'}
+[40.090777] (point_lio) StdoutLine: {'line': b'-- Installing: /home/jorgelop/Documents/VantTec_SDV_SWARM/UAV_Proyect/TMR_UAV_2026/workspaces/sensor_stack/catkin_point_lio_unilidar/install/point_lio/share/point_lio/cmake/point_lioConfig-version.cmake\n'}
+[40.090858] (point_lio) StdoutLine: {'line': b'-- Installing: /home/jorgelop/Documents/VantTec_SDV_SWARM/UAV_Proyect/TMR_UAV_2026/workspaces/sensor_stack/catkin_point_lio_unilidar/install/point_lio/share/point_lio/package.xml\n'}
+[40.092677] (point_lio) CommandEnded: {'returncode': 0}
+[40.105193] (point_lio) JobEnded: {'identifier': 'point_lio', 'rc': 0}
+[40.106515] (-) EventReactorShutdown: {}

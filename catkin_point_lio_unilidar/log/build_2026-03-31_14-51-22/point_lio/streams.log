@@ -1,0 +1,52 @@
+[0.013s] Invoking command in '/home/jorgelop/Documents/VantTec_SDV_SWARM/UAV_Proyect/TMR_UAV_2026/workspaces/sensor_stack/catkin_point_lio_unilidar/build/point_lio': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jorgelop/Documents/VantTec_SDV_SWARM/UAV_Proyect/TMR_UAV_2026/workspaces/sensor_stack/catkin_point_lio_unilidar/build/point_lio -- -j16 -l16
+[0.068s] [35m[1mConsolidate compiler generated dependencies of target pointlio_mapping[0m
+[0.143s] [ 16%] [32mBuilding CXX object CMakeFiles/pointlio_mapping.dir/src/laserMapping.cpp.o[0m
+[0.144s] [ 33%] [32mBuilding CXX object CMakeFiles/pointlio_mapping.dir/src/parameters.cpp.o[0m
+[0.145s] [ 50%] [32mBuilding CXX object CMakeFiles/pointlio_mapping.dir/src/Estimator.cpp.o[0m
+[40.291s] [ 66%] [32m[1mLinking CXX executable pointlio_mapping[0m
+[41.041s] [100%] Built target pointlio_mapping
+[41.054s] Invoked command in '/home/jorgelop/Documents/VantTec_SDV_SWARM/UAV_Proyect/TMR_UAV_2026/workspaces/sensor_stack/catkin_point_lio_unilidar/build/point_lio' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jorgelop/Documents/VantTec_SDV_SWARM/UAV_Proyect/TMR_UAV_2026/workspaces/sensor_stack/catkin_point_lio_unilidar/build/point_lio -- -j16 -l16
+[41.065s] Invoking command in '/home/jorgelop/Documents/VantTec_SDV_SWARM/UAV_Proyect/TMR_UAV_2026/workspaces/sensor_stack/catkin_point_lio_unilidar/build/point_lio': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jorgelop/Documents/VantTec_SDV_SWARM/UAV_Proyect/TMR_UAV_2026/workspaces/sensor_stack/catkin_point_lio_unilidar/build/point_lio
+[41.074s] -- Install configuration: ""
+[41.074s] -- Installing: /home/jorgelop/Documents/VantTec_SDV_SWARM/UAV_Proyect/TMR_UAV_2026/workspaces/sensor_stack/catkin_point_lio_unilidar/install/point_lio/lib/point_lio/pointlio_mapping
+[41.079s] -- Set runtime path of "/home/jorgelop/Documents/VantTec_SDV_SWARM/UAV_Proyect/TMR_UAV_2026/workspaces/sensor_stack/catkin_point_lio_unilidar/install/point_lio/lib/point_lio/pointlio_mapping" to ""
+[41.079s] -- Up-to-date: /home/jorgelop/Documents/VantTec_SDV_SWARM/UAV_Proyect/TMR_UAV_2026/workspaces/sensor_stack/catkin_point_lio_unilidar/install/point_lio/share/point_lio/config
+[41.079s] -- Up-to-date: /home/jorgelop/Documents/VantTec_SDV_SWARM/UAV_Proyect/TMR_UAV_2026/workspaces/sensor_stack/catkin_point_lio_unilidar/install/point_lio/share/point_lio/config/unilidar_l2.yaml
+[41.079s] -- Up-to-date: /home/jorgelop/Documents/VantTec_SDV_SWARM/UAV_Proyect/TMR_UAV_2026/workspaces/sensor_stack/catkin_point_lio_unilidar/install/point_lio/share/point_lio/config/ouster64.yaml
+[41.079s] -- Up-to-date: /home/jorgelop/Documents/VantTec_SDV_SWARM/UAV_Proyect/TMR_UAV_2026/workspaces/sensor_stack/catkin_point_lio_unilidar/install/point_lio/share/point_lio/config/avia.yaml
+[41.079s] -- Up-to-date: /home/jorgelop/Documents/VantTec_SDV_SWARM/UAV_Proyect/TMR_UAV_2026/workspaces/sensor_stack/catkin_point_lio_unilidar/install/point_lio/share/point_lio/config/velody16.yaml
+[41.079s] -- Up-to-date: /home/jorgelop/Documents/VantTec_SDV_SWARM/UAV_Proyect/TMR_UAV_2026/workspaces/sensor_stack/catkin_point_lio_unilidar/install/point_lio/share/point_lio/config/horizon.yaml
+[41.079s] -- Up-to-date: /home/jorgelop/Documents/VantTec_SDV_SWARM/UAV_Proyect/TMR_UAV_2026/workspaces/sensor_stack/catkin_point_lio_unilidar/install/point_lio/share/point_lio/config/mid360.yaml
+[41.080s] -- Installing: /home/jorgelop/Documents/VantTec_SDV_SWARM/UAV_Proyect/TMR_UAV_2026/workspaces/sensor_stack/catkin_point_lio_unilidar/install/point_lio/share/point_lio/config/unilidar_l1.yaml
+[41.080s] -- Up-to-date: /home/jorgelop/Documents/VantTec_SDV_SWARM/UAV_Proyect/TMR_UAV_2026/workspaces/sensor_stack/catkin_point_lio_unilidar/install/point_lio/share/point_lio/launch
+[41.080s] -- Up-to-date: /home/jorgelop/Documents/VantTec_SDV_SWARM/UAV_Proyect/TMR_UAV_2026/workspaces/sensor_stack/catkin_point_lio_unilidar/install/point_lio/share/point_lio/launch/mapping_unilidar_l1.launch.py
+[41.080s] -- Up-to-date: /home/jorgelop/Documents/VantTec_SDV_SWARM/UAV_Proyect/TMR_UAV_2026/workspaces/sensor_stack/catkin_point_lio_unilidar/install/point_lio/share/point_lio/launch/gdb_debug_example.launch.py
+[41.080s] -- Up-to-date: /home/jorgelop/Documents/VantTec_SDV_SWARM/UAV_Proyect/TMR_UAV_2026/workspaces/sensor_stack/catkin_point_lio_unilidar/install/point_lio/share/point_lio/launch/mapping_mid360.launch.py
+[41.080s] -- Up-to-date: /home/jorgelop/Documents/VantTec_SDV_SWARM/UAV_Proyect/TMR_UAV_2026/workspaces/sensor_stack/catkin_point_lio_unilidar/install/point_lio/share/point_lio/launch/mapping_ouster64.launch.py
+[41.080s] -- Up-to-date: /home/jorgelop/Documents/VantTec_SDV_SWARM/UAV_Proyect/TMR_UAV_2026/workspaces/sensor_stack/catkin_point_lio_unilidar/install/point_lio/share/point_lio/launch/mapping_unilidar_l2.launch.py
+[41.080s] -- Up-to-date: /home/jorgelop/Documents/VantTec_SDV_SWARM/UAV_Proyect/TMR_UAV_2026/workspaces/sensor_stack/catkin_point_lio_unilidar/install/point_lio/share/point_lio/launch/correct_odom_unilidar_l1.launch.py
+[41.080s] -- Up-to-date: /home/jorgelop/Documents/VantTec_SDV_SWARM/UAV_Proyect/TMR_UAV_2026/workspaces/sensor_stack/catkin_point_lio_unilidar/install/point_lio/share/point_lio/launch/mapping_velody16.launch.py
+[41.080s] -- Up-to-date: /home/jorgelop/Documents/VantTec_SDV_SWARM/UAV_Proyect/TMR_UAV_2026/workspaces/sensor_stack/catkin_point_lio_unilidar/install/point_lio/share/point_lio/launch/__pycache__
+[41.080s] -- Up-to-date: /home/jorgelop/Documents/VantTec_SDV_SWARM/UAV_Proyect/TMR_UAV_2026/workspaces/sensor_stack/catkin_point_lio_unilidar/install/point_lio/share/point_lio/launch/__pycache__/mapping_unilidar_l1.launch.cpython-310.pyc
+[41.081s] -- Up-to-date: /home/jorgelop/Documents/VantTec_SDV_SWARM/UAV_Proyect/TMR_UAV_2026/workspaces/sensor_stack/catkin_point_lio_unilidar/install/point_lio/share/point_lio/launch/mapping_avia.launch.py
+[41.081s] -- Up-to-date: /home/jorgelop/Documents/VantTec_SDV_SWARM/UAV_Proyect/TMR_UAV_2026/workspaces/sensor_stack/catkin_point_lio_unilidar/install/point_lio/share/point_lio/launch/mapping_horizon.launch.py
+[41.081s] -- Up-to-date: /home/jorgelop/Documents/VantTec_SDV_SWARM/UAV_Proyect/TMR_UAV_2026/workspaces/sensor_stack/catkin_point_lio_unilidar/install/point_lio/share/point_lio/launch/correct_odom_unilidar_l2.launch.py
+[41.081s] -- Up-to-date: /home/jorgelop/Documents/VantTec_SDV_SWARM/UAV_Proyect/TMR_UAV_2026/workspaces/sensor_stack/catkin_point_lio_unilidar/install/point_lio/share/point_lio/rviz_cfg
+[41.081s] -- Up-to-date: /home/jorgelop/Documents/VantTec_SDV_SWARM/UAV_Proyect/TMR_UAV_2026/workspaces/sensor_stack/catkin_point_lio_unilidar/install/point_lio/share/point_lio/rviz_cfg/loam_livox.rviz
+[41.081s] -- Up-to-date: /home/jorgelop/Documents/VantTec_SDV_SWARM/UAV_Proyect/TMR_UAV_2026/workspaces/sensor_stack/catkin_point_lio_unilidar/install/point_lio/share/ament_index/resource_index/package_run_dependencies/point_lio
+[41.081s] -- Up-to-date: /home/jorgelop/Documents/VantTec_SDV_SWARM/UAV_Proyect/TMR_UAV_2026/workspaces/sensor_stack/catkin_point_lio_unilidar/install/point_lio/share/ament_index/resource_index/parent_prefix_path/point_lio
+[41.081s] -- Up-to-date: /home/jorgelop/Documents/VantTec_SDV_SWARM/UAV_Proyect/TMR_UAV_2026/workspaces/sensor_stack/catkin_point_lio_unilidar/install/point_lio/share/point_lio/environment/ament_prefix_path.sh
+[41.081s] -- Up-to-date: /home/jorgelop/Documents/VantTec_SDV_SWARM/UAV_Proyect/TMR_UAV_2026/workspaces/sensor_stack/catkin_point_lio_unilidar/install/point_lio/share/point_lio/environment/ament_prefix_path.dsv
+[41.081s] -- Up-to-date: /home/jorgelop/Documents/VantTec_SDV_SWARM/UAV_Proyect/TMR_UAV_2026/workspaces/sensor_stack/catkin_point_lio_unilidar/install/point_lio/share/point_lio/environment/path.sh
+[41.081s] -- Up-to-date: /home/jorgelop/Documents/VantTec_SDV_SWARM/UAV_Proyect/TMR_UAV_2026/workspaces/sensor_stack/catkin_point_lio_unilidar/install/point_lio/share/point_lio/environment/path.dsv
+[41.081s] -- Up-to-date: /home/jorgelop/Documents/VantTec_SDV_SWARM/UAV_Proyect/TMR_UAV_2026/workspaces/sensor_stack/catkin_point_lio_unilidar/install/point_lio/share/point_lio/local_setup.bash
+[41.081s] -- Up-to-date: /home/jorgelop/Documents/VantTec_SDV_SWARM/UAV_Proyect/TMR_UAV_2026/workspaces/sensor_stack/catkin_point_lio_unilidar/install/point_lio/share/point_lio/local_setup.sh
+[41.081s] -- Up-to-date: /home/jorgelop/Documents/VantTec_SDV_SWARM/UAV_Proyect/TMR_UAV_2026/workspaces/sensor_stack/catkin_point_lio_unilidar/install/point_lio/share/point_lio/local_setup.zsh
+[41.081s] -- Up-to-date: /home/jorgelop/Documents/VantTec_SDV_SWARM/UAV_Proyect/TMR_UAV_2026/workspaces/sensor_stack/catkin_point_lio_unilidar/install/point_lio/share/point_lio/local_setup.dsv
+[41.082s] -- Installing: /home/jorgelop/Documents/VantTec_SDV_SWARM/UAV_Proyect/TMR_UAV_2026/workspaces/sensor_stack/catkin_point_lio_unilidar/install/point_lio/share/point_lio/package.dsv
+[41.082s] -- Up-to-date: /home/jorgelop/Documents/VantTec_SDV_SWARM/UAV_Proyect/TMR_UAV_2026/workspaces/sensor_stack/catkin_point_lio_unilidar/install/point_lio/share/ament_index/resource_index/packages/point_lio
+[41.082s] -- Up-to-date: /home/jorgelop/Documents/VantTec_SDV_SWARM/UAV_Proyect/TMR_UAV_2026/workspaces/sensor_stack/catkin_point_lio_unilidar/install/point_lio/share/point_lio/cmake/ament_cmake_export_dependencies-extras.cmake
+[41.082s] -- Up-to-date: /home/jorgelop/Documents/VantTec_SDV_SWARM/UAV_Proyect/TMR_UAV_2026/workspaces/sensor_stack/catkin_point_lio_unilidar/install/point_lio/share/point_lio/cmake/point_lioConfig.cmake
+[41.082s] -- Up-to-date: /home/jorgelop/Documents/VantTec_SDV_SWARM/UAV_Proyect/TMR_UAV_2026/workspaces/sensor_stack/catkin_point_lio_unilidar/install/point_lio/share/point_lio/cmake/point_lioConfig-version.cmake
+[41.082s] -- Up-to-date: /home/jorgelop/Documents/VantTec_SDV_SWARM/UAV_Proyect/TMR_UAV_2026/workspaces/sensor_stack/catkin_point_lio_unilidar/install/point_lio/share/point_lio/package.xml
+[41.083s] Invoked command in '/home/jorgelop/Documents/VantTec_SDV_SWARM/UAV_Proyect/TMR_UAV_2026/workspaces/sensor_stack/catkin_point_lio_unilidar/build/point_lio' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jorgelop/Documents/VantTec_SDV_SWARM/UAV_Proyect/TMR_UAV_2026/workspaces/sensor_stack/catkin_point_lio_unilidar/build/point_lio
