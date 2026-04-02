@@ -35,10 +35,6 @@ COLCON_CURRENT_PREFIX="/opt/ros/humble"
 _colcon_prefix_chain_sh_source_script "$COLCON_CURRENT_PREFIX/local_setup.sh"
 
 # setting COLCON_CURRENT_PREFIX avoids relying on the build time prefix of the sourced script
-COLCON_CURRENT_PREFIX="/home/jorgelop/Documents/VantTec_SDV_SWARM/UAV_Proyect/TMR_UAV_2026/workspaces/sensor_stack/unilidar_sdk/unitree_lidar_ros2/install"
-_colcon_prefix_chain_sh_source_script "$COLCON_CURRENT_PREFIX/local_setup.sh"
-
-# setting COLCON_CURRENT_PREFIX avoids relying on the build time prefix of the sourced script
 COLCON_CURRENT_PREFIX="/home/jorgelop/Documents/VantTec_SDV_SWARM/SDV_Proyect/SDV_Software_Workspaces/minimal_ws_sensors/install"
 _colcon_prefix_chain_sh_source_script "$COLCON_CURRENT_PREFIX/local_setup.sh"
 

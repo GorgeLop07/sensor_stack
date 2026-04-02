@@ -23,7 +23,6 @@ function _colcon_prefix_chain_powershell_source_script {
 
 # source chained prefixes
 _colcon_prefix_chain_powershell_source_script "/opt/ros/humble\local_setup.ps1"
-_colcon_prefix_chain_powershell_source_script "/home/jorgelop/Documents/VantTec_SDV_SWARM/UAV_Proyect/TMR_UAV_2026/workspaces/sensor_stack/unilidar_sdk/unitree_lidar_ros2/install\local_setup.ps1"
 _colcon_prefix_chain_powershell_source_script "/home/jorgelop/Documents/VantTec_SDV_SWARM/SDV_Proyect/SDV_Software_Workspaces/minimal_ws_sensors/install\local_setup.ps1"
 
 # source this prefix

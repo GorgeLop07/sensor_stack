@@ -1,0 +1,9 @@
+# Ignore ROS/colcon artifacts in catkin_point_lio_unilidar
+/catkin_point_lio_unilidar/build/
+/catkin_point_lio_unilidar/install/
+/catkin_point_lio_unilidar/log/
+
+# Ignore build artifacts under unilidar_sdk (including nested ROS2 workspace)
+/unilidar_sdk/**/build/
+/unilidar_sdk/**/install/
+/unilidar_sdk/**/log/

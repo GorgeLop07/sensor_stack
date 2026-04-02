@@ -55,3 +55,6 @@ endforeach()
 message(STATUS "Execute custom uninstall script")
 
 # begin of custom uninstall code
+
+# uninstall files installed using the symlink install functions
+include("/home/jorgelop/Documents/VantTec_SDV_SWARM/UAV_Proyect/TMR_UAV_2026/workspaces/sensor_stack/catkin_point_lio_unilidar/build/point_lio/ament_cmake_symlink_install/ament_cmake_symlink_install_uninstall_script.cmake")
